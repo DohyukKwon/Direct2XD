@@ -1,0 +1,39 @@
+# DirectX2DPortfolio
+복습의 과정들을 올려보기
+#include <iostream>
+#include <stdio.h>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	
+	int q = 2;
+	while (q < 10)
+	{
+			int z = 1;
+			while (z < 10)
+			{
+				printf(" %d x %d = %d\n", q, z, q * z);
+				z++;
+			}
+			q++;
+	}
+		
+	int num;
+	cout << " 알고싶은 구구단을 숫자로 입력하세요 2~9 : " << endl;
+    scanf_s("%d", &num);
+		
+
+	for (int x = 1; x < 10; x++)
+	{
+		printf(" %d x %d = %d\n", num, x, num * x);
+		
+	}
+
+
+
+	
+	
+}
